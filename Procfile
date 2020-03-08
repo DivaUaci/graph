@@ -1,1 +1,2 @@
-web: bokeh serve --port=$PORT --num-procs=0 --host=graphei.herokuapp.com --address=0.0.0.0 --use-xheaders Preddata.py
+web: bokeh serve --port=$PORT --num-procs=0 --allow-websocket-origin=* --address=0.0.0.0 
+--use-xheaders Preddata.py
